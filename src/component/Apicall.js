@@ -17,7 +17,7 @@ export default function Apicall() {
   //   // setpost(post+1)
   //  }
   let url =
-    "https://newsapi.org/v2/everything?q=tesla&from=2022-12-17&sortBy=publishedAt&apiKey=b8ba7c6521d14e74957aed6346bf938f";
+    "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b8ba7c6521d14e74957aed6346bf938f";
   useEffect(() => {
     axios
       .get(url)
@@ -40,7 +40,7 @@ export default function Apicall() {
   // const btn2 = function()
   // {
   //   console.log("hello","///////////////////");
-  // }
+  // } sdjgsdfkl
   return (
     <>
       <div className="container my-2">
